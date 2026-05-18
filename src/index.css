@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
+:root {
+  --black: #080808;
+  --dark: #0f0f0f;
+  --dark2: #161616;
+  --dark3: #1e1e1e;
+  --gray: #2a2a2a;
+  --gray2: #3a3a3a;
+  --gray-text: #666666;
+  --light: #aaaaaa;
+  --white: #efefef;
+  --accent: #f5a623;
+  --accent2: #ff6b1a;
+  --accent-dim: rgba(245,166,35,0.18);
+  --accent-glow: rgba(245,166,35,0.35);
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Syne', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --nav-h: 68px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--dark2);
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--dark2); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent), var(--accent2));
+  border-radius: 3px;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  cursor: none;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, button { cursor: none; }
+
+::selection { background: var(--accent); color: var(--black); }

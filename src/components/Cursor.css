@@ -1,0 +1,53 @@
+#cursor-dot {
+  position: fixed;
+  width: 8px; height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+  transition: width 0.15s, height 0.15s, background 0.15s;
+  mix-blend-mode: difference;
+}
+#cursor-dot.clicking {
+  width: 4px; height: 4px;
+  background: var(--accent2);
+}
+#cursor-ring {
+  position: fixed;
+  width: 34px; height: 34px;
+  border: 1.5px solid var(--accent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s cubic-bezier(0.16,1,0.3,1),
+              height 0.3s cubic-bezier(0.16,1,0.3,1),
+              border-color 0.2s,
+              opacity 0.2s;
+  opacity: 0.65;
+}
+#cursor-ring.hovered {
+  width: 56px; height: 56px;
+  border-color: var(--accent2);
+  opacity: 1;
+  background: rgba(245,166,35,0.06);
+}
+#cursor-label {
+  position: fixed;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  pointer-events: none;
+  z-index: 10001;
+  opacity: 0;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+  background: rgba(8,8,8,0.85);
+  padding: 3px 7px;
+  border: 1px solid var(--accent-dim);
+  border-radius: 3px;
+}
+#cursor-label.visible { opacity: 1; }

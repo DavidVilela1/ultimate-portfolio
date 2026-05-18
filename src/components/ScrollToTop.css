@@ -1,0 +1,18 @@
+.scroll-top {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  z-index: 800;
+  background: var(--dark2);
+  border: none;
+  border-radius: 50%;
+  width: 56px; height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5), 0 0 0 1px var(--gray);
+  transition: box-shadow 0.3s;
+}
+.scroll-top:hover {
+  box-shadow: 0 4px 32px var(--accent-glow), 0 0 0 1px var(--accent);
+}
