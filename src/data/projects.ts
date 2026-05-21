@@ -133,6 +133,7 @@ export const projects: Project[] = [
     repo: 'https://github.com/DavidVilela1/couto-e-serrao',
     deploy: 'https://cauto-e-serrao.vercel.app/',
     featured: false,
+    status: 'wip',
     category: 'Website',
   },
   {
@@ -145,6 +146,7 @@ export const projects: Project[] = [
     repo: 'https://github.com/DavidVilela1/ciencias-naturais',
     deploy: 'https://ciencias-naturais.vercel.app/',
     featured: false,
+    status: 'wip',
     category: 'Website',
   },
 ];
