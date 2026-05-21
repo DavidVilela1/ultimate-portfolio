@@ -97,7 +97,7 @@ export const projects: Project[] = [
     repo: 'https://github.com/DavidVilela1/senhora-da-pena',
     deploy: 'https://senhora-da-pena.vercel.app/',
     featured: false,
-    category: 'Website',
+    category: 'Landing Page',
   },
   {
     id: 'casa-pardal',
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     repo: 'https://github.com/DavidVilela1/casa-pardal',
     deploy: 'https://casa-pardal.vercel.app/',
     featured: false,
-    category: 'Website',
+    category: 'Landing Page',
   },
   {
     id: 'kitzone',
