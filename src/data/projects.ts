@@ -123,4 +123,16 @@ export const projects: Project[] = [
     featured: false,
     category: 'Website',
   },
+  {
+    id: 'couto-e-serrao',
+    titlePT: 'Couto & Serrão — Construção & Engenharia',
+    titleEN: 'Couto & Serrão — Construction & Engineering',
+    descriptionPT: 'Website institucional para a Couto & Serrão, empresa de construção civil com sede em Braga. Portfólio de obras com filtros por categoria, formulário de contacto, secção de serviços e design profissional em tons de cinza e azul.',
+    descriptionEN: 'Institutional website for Couto & Serrão, a civil construction company based in Braga. Project portfolio with category filters, contact form, services section and professional design in grey and blue tones.',
+    tech: ['React.js', 'Vite'],
+    repo: 'https://github.com/DavidVilela1/couto-e-serrao',
+    deploy: 'https://couto-e-serrao.vercel.app/',
+    featured: false,
+    category: 'Website',
+  },
 ];
