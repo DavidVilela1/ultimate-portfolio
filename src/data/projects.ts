@@ -135,4 +135,16 @@ export const projects: Project[] = [
     featured: false,
     category: 'Website',
   },
+  {
+    id: 'floresta-ciencias-naturais',
+    titlePT: 'A Floresta e as Ciências Naturais — Enciclopédia Botânica',
+    titleEN: 'The Forest and Natural Sciences — Botanical Encyclopedia',
+    descriptionPT: 'Enciclopédia botânica interativa para a Escola Secundária S. Pedro em parceria com a UTAD. SPA com pesquisa em tempo real, fichas detalhadas por espécie, galeria com lightbox, tema claro/escuro e navegação mobile-first.',
+    descriptionEN: 'Interactive botanical encyclopedia for Escola Secundária S. Pedro in partnership with UTAD. SPA with real-time search, detailed species pages, lightbox gallery, light/dark theme and mobile-first navigation.',
+    tech: ['React.js', 'Vite'],
+    repo: 'https://github.com/DavidVilela1/ciencias-naturais',
+    deploy: 'https://ciencias-naturais.vercel.app/',
+    featured: false,
+    category: 'Website',
+  },
 ];
