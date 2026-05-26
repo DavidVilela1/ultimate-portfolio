@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import './Cursor.css';
 
+const isTouchDevice = () =>
+  window.matchMedia('(pointer: coarse)').matches || !window.matchMedia('(pointer: fine)').matches;
+
 const Cursor = () => {
+  if (isTouchDevice()) return null;
   const dotRef = useRef<HTMLDivElement>(null);
   const ringRef = useRef<HTMLDivElement>(null);
   const labelRef = useRef<HTMLDivElement>(null);

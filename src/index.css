@@ -46,4 +46,8 @@ body {
 
 a, button { cursor: none; }
 
+@media (pointer: fine) {
+  body, a, button { cursor: none; }
+}
+
 ::selection { background: var(--accent); color: var(--black); }
