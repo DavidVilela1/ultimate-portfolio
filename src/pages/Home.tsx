@@ -6,6 +6,7 @@ import { useTypewriter } from '../hooks/useTypewriter';
 import { projects } from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
 import './Home.css';
+import { GitHubCalendar } from 'react-github-calendar';
 
 /* ---------- Magnetic Button ---------- */
 const MagBtn = ({ children, href, to, className, onClick }: any) => {
@@ -286,6 +287,18 @@ const Home = () => {
             <span className="btn-arrow">→</span>
           </MagBtn>
         </div>
+      </section>
+
+      {/* ===== GITHUB CALENDAR ===== */}
+      <section className="github-cal">
+        <GitHubCalendar
+          username="DavidVilela1"
+          theme={{
+            light: ['#1a1a1a', '#3d2e00', '#7a5c00', '#b88a00', '#f5a623'],
+            dark:  ['#1a1a1a', '#3d2e00', '#7a5c00', '#b88a00', '#f5a623'],
+          }}
+          colorScheme="dark"
+        />
       </section>
 
       {/* ===== CONTACT ===== */}
