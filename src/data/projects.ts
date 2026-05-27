@@ -22,7 +22,7 @@ export const projects: Project[] = [
     tech: ['React.js', 'CSS', 'JavaScript'],
     repo: 'https://github.com/DavidVilela1/pdauto-mockup',
     deploy: 'https://pdauto-mockup.vercel.app/',
-    featured: false,
+    featured: true,
     category: 'Website',
   },
   {
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     tech: ['React.js', 'TypeScript', 'CSS'],
     repo: 'https://github.com/DavidVilela1/landing-page-pdacademia',
     deploy: 'https://landing-page-pdacademia.vercel.app/',
-    featured: true,
+    featured: false,
     category: 'Landing Page',
   },
   {
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Framer Motion'],
     repo: 'https://github.com/DavidVilela1/portfolio-davidvilela-webdev',
     deploy: 'https://davidvilela1.github.io/portfolio-davidvilela-webdev/',
-    featured: true,
+    featured: false,
     category: 'Portfolio',
   },
   {
@@ -146,7 +146,19 @@ export const projects: Project[] = [
     repo: 'https://github.com/DavidVilela1/ciencias-naturais',
     deploy: 'https://ciencias-naturais.vercel.app/',
     featured: false,
-    status: 'wip',
     category: 'Website',
+  },
+  {
+    id: 'vaultapp',
+    titlePT: 'StreamVault + GameVault',
+    titleEN: 'StreamVault + GameVault',
+    descriptionPT: 'Conceito de app unificada de streaming de filmes/séries e loja de jogos, estilo Netflix + Steam. Tema escuro/claro, tradução PT/EN, sistema de login/registo e transição de página com efeito flip 3D entre as duas secções.',
+    descriptionEN: 'Unified concept app combining a movie/series streaming platform and a game store, Netflix + Steam style. Dark/light theme, PT/EN translation, login/register system and 3D flip page transition between both sections.',
+    tech: ['React.js', 'Vite', 'CSS Modules'],
+    repo: 'https://github.com/DavidVilela1/vault',
+    deploy: 'https://vault-streaming-gaming.vercel.app/',
+    featured: true,
+    status: 'wip',
+    category: 'Web App',
   },
 ];
