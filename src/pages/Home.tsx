@@ -180,7 +180,7 @@ const Home = () => {
             transition={{ delay: 1.05 }}
           >
             <MagBtn to="/projects" className="btn-primary">
-              {lang === 'pt' ? 'Ver Projectos' : 'View Projects'}
+              {lang === 'pt' ? 'Ver Projetos' : 'View Projects'}
               <span className="btn-arrow">→</span>
             </MagBtn>
             <MagBtn href="mailto:vileladavid112@gmail.com" className="btn-secondary">
@@ -218,7 +218,7 @@ const Home = () => {
             </h2>
             <p className="about-body">
               {lang === 'pt'
-                ? 'Sou um desenvolvedor web júnior apaixonado por criar interfaces modernas, responsivas e funcionais. Tenho trabalhado em websites e landing pages para empresas e projectos reais, com foco em design limpo, performance e experiência do utilizador.'
+                ? 'Sou um desenvolvedor web júnior apaixonado por criar interfaces modernas, responsivas e funcionais. Tenho trabalhado em websites e landing pages para empresas e projetos reais, com foco em design limpo, performance e experiência do utilizador.'
                 : "I'm a junior web developer passionate about building modern, responsive and functional interfaces. I've worked on websites and landing pages for real companies and projects, focusing on clean design, performance and user experience."}
             </p>
             <p className="about-body">
@@ -228,7 +228,7 @@ const Home = () => {
             </p>
             <div className="currently">
               <span className="status-dot" />
-              <span>{lang === 'pt' ? 'Disponível para projectos' : 'Available for projects'}</span>
+              <span>{lang === 'pt' ? 'Disponível para projetos' : 'Available for projects'}</span>
             </div>
           </motion.div>
 
@@ -269,7 +269,7 @@ const Home = () => {
       <section className="featured">
         <div className="section-label">
           <span className="section-num">02</span>
-          <span>{lang === 'pt' ? 'Projectos em Destaque' : 'Featured Projects'}</span>
+          <span>{lang === 'pt' ? 'Projetos em Destaque' : 'Featured Projects'}</span>
         </div>
         <h2 className="section-title">
           {lang === 'pt' ? <>Selected<br /><span>Work</span></> : <>Selected<br /><span>Work</span></>}
@@ -283,7 +283,7 @@ const Home = () => {
 
         <div className="see-all-wrap">
           <MagBtn to="/projects" className="btn-outline">
-            {lang === 'pt' ? 'Ver todos os projectos' : 'See all projects'}
+            {lang === 'pt' ? 'Ver todos os projetos' : 'See all projects'}
             <span className="btn-arrow">→</span>
           </MagBtn>
         </div>

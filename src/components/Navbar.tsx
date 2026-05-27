@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const links = [
     { to: '/', labelPT: 'Home', labelEN: 'Home' },
-    { to: '/projects', labelPT: 'Projectos', labelEN: 'Projects' },
+    { to: '/projects', labelPT: 'Projetos', labelEN: 'Projects' },
   ];
 
   const contactLabel = lang === 'pt' ? 'Contacto' : 'Contact';
